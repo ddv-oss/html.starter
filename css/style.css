@@ -1,3 +1,30 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #F5F5F5;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.page-wrapper {
+   max-width: 402px;
+   margin: auto;
+   border-radius: 20px 20px 0 0;
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+   background: #e8e8e8;
+  }
+ .header {
+  color: #fff;
+   padding: 40px 42px 145px;
+   border-radius: 20px 20px 90px 90px;
+   width: 402px;
+   height: 250px; 
+   background: url("../assets/images/photo.png") no-repeat  center / cover ;
+   
+  }
+  .hello {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
